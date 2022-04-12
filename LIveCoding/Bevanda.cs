@@ -23,7 +23,8 @@ namespace CsharpShop
             // codice pad - nome bevanda - litri
 
             Console.Write($"{base.PadLeft()} - {base.GetNome} - {this.litri}");
+            Console.WriteLine($"Sono una bottiglia da {this.litri}");
         }
-        
+       
     }
  }
